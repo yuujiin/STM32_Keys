@@ -10,9 +10,9 @@
 #define KEYS_QUEUE_TIMEOUT	(osWaitForever)
 
 #define KEYS_TICK_DIVIDER	(25)
-#define KEYS_DEBOUNCE_TMR	(50		/ KEYS_TICK_DIVIDER)
-#define KEYS_LONGCLICK_TMR	(400	/ KEYS_TICK_DIVIDER)
-#define KEYS_REPEAT_TMR		(150	/ KEYS_TICK_DIVIDER)
+#define KEYS_DEBOUNCE_TMR	(500	/ KEYS_TICK_DIVIDER)
+#define KEYS_LONGCLICK_TMR	(3000	/ KEYS_TICK_DIVIDER)
+#define KEYS_REPEAT_TMR		(1500	/ KEYS_TICK_DIVIDER)
 /* End configuration ----------------------------------- */
 
 
